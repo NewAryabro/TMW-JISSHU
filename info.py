@@ -13,28 +13,28 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+API_ID = int(environ.get('API_ID', '7515868'))
+API_HASH = environ.get('API_HASH', 'dbd251e9ad4883b0443cc82b618ac6fa')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1337013299').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/djreme") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/PriyaMovis_Group')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/Arya_Bro") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002091553156'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Arya_Movies_Request_Group')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001963733573').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://bestanimeandcartoonsclips:6ChCTALD96W7qkps@cluster0.dt9r1rc.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "PIF01")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'PIF01"')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001981616450'))  # set shortner log channel
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002091553156'))  # set shortner log channel
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0')) # The movie you upload in it will be deleted from the bot.
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
-auth_channel = environ.get('AUTH_CHANNEL', '')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002009379876')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '0'))
 request_channel = environ.get('REQUEST_CHANNEL', '0') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0')) # 
@@ -43,14 +43,14 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link 
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', False)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/PriyaBotUpdates/270")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/PriyaBotUpdates/270")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/vs_Files_Mx_player/221")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/vs_Files_Mx_player/221")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/6bdfcc98d1317336a4f5e-a01acc33113696e056.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "71e1bb5fe24bcb9bef53ce57fb8cfb2b6bf2d19d")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'atglinks.com')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "71e1bb5fe24bcb9bef53ce57fb8cfb2b6bf2d19d")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'atglinks.com')
+SHORTENER_API = environ.get("SHORTENER_API", "77168ee4b9e20fbc35debcfe2ed9c367640bbc7d")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'instantearn.in')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "77168ee4b9e20fbc35debcfe2ed9c367640bbc7d")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'instantearn.in')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", '')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
@@ -69,10 +69,10 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://graph.org/file/3742cab9cc16bb6660cbb-45d440110eb0892348.jpg https://graph.org/file/6ddad97b9d5849936f2a3-ece9137217ff3a186f.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://graph.org/file/d22e35eb1d29e1d9ffb21.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://graph.org/file/09320f6074b5aeb2b9023-edf4a1129e9e6c4a8f.jpg')
-REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/91890b886eec67d9f40a4-9c3a201c1ddeaa3935.jpg')).split()
+REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/fCR.jpg")).split() 
+PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/fCR.jpg')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/3292318e002c33e2f9831-11911aafc2de78bbca.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
