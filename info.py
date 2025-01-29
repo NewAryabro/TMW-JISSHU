@@ -25,9 +25,9 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Arya_Movies_Req
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002459270897').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://bestanimeandcartoonsclips:6ChCTALD96W7qkps@cluster0.dt9r1rc.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "PIF01")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'PIF01"')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://animefrnd44:OEgLPjMjrAKR46kE@cluster0.arcfjym.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Arya")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Arya')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
@@ -44,15 +44,15 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Arya_Movies_Request_Gro
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/vs_Files_Mx_player/221")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/vs_Files_Mx_player/221")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/vs_Files_Mx_player/221")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "0")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "0")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://envs.sh/aPT.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "77168ee4b9e20fbc35debcfe2ed9c367640bbc7d")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'instantearn.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", '')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", '')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "0")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", '0')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "0")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", '0')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
@@ -69,7 +69,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://graph.org/file/d22e35eb1d29e1d9ffb21.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://envs.sh/aNu.jpg https://envs.sh/aN2.jpg https://envs.sh/aNQ.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://graph.org/file/09320f6074b5aeb2b9023-edf4a1129e9e6c4a8f.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/fCR.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/fCR.jpg')).split()
