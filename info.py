@@ -26,8 +26,8 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://bestanimeandcartoonsclips:6ChCTALD96W7qkps@cluster0.dt9r1rc.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Arya")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Arya')
+DATABASE_NAME = environ.get('DATABASE_NAME', "PIF01")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'PIF01"')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
