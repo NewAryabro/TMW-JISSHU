@@ -25,9 +25,9 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Arya_Movies_Req
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002459270897').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://bestanimeandcartoonsclips:6ChCTALD96W7qkps@cluster0.dt9r1rc.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "PIF01")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'PIF01"')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://animefrnd44:filetolink@cluster0.5lmeb.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Arya")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Arya')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
@@ -41,7 +41,7 @@ MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0')) #
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Arya_Movies_Request_Group') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', False)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/vs_Files_Mx_player/221")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "")
