@@ -13,19 +13,19 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '7515868'))
-API_HASH = environ.get('API_HASH', 'dbd251e9ad4883b0443cc82b618ac6fa')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6444037403:AAGaGf2LcTBiEs6gwvfZu7H8x3CqhCx_OKA')
+API_ID = int(environ.get('API_ID', '28983957'))
+API_HASH = environ.get('API_HASH', '3a41093732a0d45317704f3d9d3757f2')
+BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7179779107 6081617163').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/Arya_Bro_Bot") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002370043591'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Arya_Movies_Request_Group')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002201834121').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7835575911 6081617163').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/Tonystark3377") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002441497510'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/TMW_Group')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002277580849').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://animefrnd44:filetolink@cluster0.5lmeb.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://temaga6324:idol813@demofile.dflkh.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Arya")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Arya')
 #---------------------------------------------------------------
@@ -34,21 +34,21 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Arya')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '0'))  # set shortner log channel
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0')) # The movie you upload in it will be deleted from the bot.
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
-auth_channel = environ.get('AUTH_CHANNEL', '-1002009379876')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002009379876'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1002456481410') # If anyone sends a request message to your bot, you will get it in this channel.
+auth_channel = environ.get('AUTH_CHANNEL', '-1002490192076')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001901738172'))
+request_channel = environ.get('REQUEST_CHANNEL', '-1002441497510') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Arya_Movies_Request_Group') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Tonystark3377') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/vs_Files_Mx_player/221")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/tokenprocess_video/4")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://envs.sh/aPT.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "77168ee4b9e20fbc35debcfe2ed9c367640bbc7d")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'instantearn.in')
+SHORTENER_API = environ.get("SHORTENER_API", "4eb4c465c67b29ff5ea7478bf729fd67671b05be")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'linkpays.in')
 SHORTENER_API2 = environ.get("SHORTENER_API2", "")
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", '')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "")
